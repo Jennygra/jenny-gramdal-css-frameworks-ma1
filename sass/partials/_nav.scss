@@ -3,7 +3,11 @@ nav {
 
   .logo {
     font: normal normal normal 36px/49px Open Sans;
-    color: map-get($colors, pink);
+    color: #262626;
+
+    @media (min-width: 992px) {
+      color: map-get($colors, pink) !important;
+    }
   }
 
   a {
@@ -14,6 +18,10 @@ nav {
   }
 
   .active {
-    color: map-get($colors, pink);
+    color: map-get($colors, pink) !important;
+  }
+
+  button {
+    border: none !important;
   }
 }

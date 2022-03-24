@@ -20,6 +20,12 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0;
+  color: #463f3a;
+}
+
+body h1 {
+  font: normal normal normal 34px/46px Open Sans;
+  margin-top: 1em;
 }
 
 .wrapper {
@@ -61,7 +67,13 @@ nav {
 
 nav .logo {
   font: normal normal normal 36px/49px Open Sans;
-  color: #c32c72;
+  color: #262626;
+}
+
+@media (min-width: 992px) {
+  nav .logo {
+    color: #c32c72 !important;
+  }
 }
 
 nav a {
@@ -72,7 +84,11 @@ nav a {
 }
 
 nav .active {
-  color: #c32c72;
+  color: #c32c72 !important;
+}
+
+nav button {
+  border: none !important;
 }
 
 footer {
