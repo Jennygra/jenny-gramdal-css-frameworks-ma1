@@ -1,0 +1,19 @@
+nav {
+  background-color: $primary;
+
+  .logo {
+    font: normal normal normal 36px/49px Open Sans;
+    color: map-get($colors, pink);
+  }
+
+  a {
+    text-decoration: none;
+    color: map-get($colors, light-grey);
+    text-transform: uppercase;
+    font: normal normal normal 18px/22px Archivo Narrow;
+  }
+
+  .active {
+    color: map-get($colors, pink);
+  }
+}

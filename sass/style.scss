@@ -1,7 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background: #e5e5e5;
-}
+@import "partials/custom";
+@import "partials/base";
+@import "partials/nav";
+@import "partials/footer";

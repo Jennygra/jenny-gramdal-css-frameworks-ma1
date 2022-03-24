@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Frameworks MA1</title>
     <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-            crossorigin="anonymous"
-        />
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <a href="#">Ma1</a>
-            <ul class="nav justify-content-end">
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+      <div class="wrapper">
+        <header>
+            <nav class="navbar">
+              <a href="#" class="logo">Ma1</a>
+              <ul class="nav justify-content-end">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
@@ -26,28 +36,32 @@
                   <a class="nav-link" href="#">About</a>
                 </li>
               </ul>
-        </nav>
-    </header>
-        <main>
+            </nav>
+          </header>
+          
+          <main class="wrapper">
             <section>
-                <div>
-                    <h1>Page heading</h1>
-                    <div>
-                        <div>Rectangle</div>
-                        <div>Rectangle</div>
-                        <div>Rectangle</div>
-                        <div>Rectangle</div>
-                        <div>Rectangle</div>
-                        <div>Rectangle</div>
-                        <div>Rectangle</div>
-                        <div>Rectangle</div>
-                    </div>
+              <di class="container">
+                <h1 class="text-center">Page heading</h1>
+                <div class="d-flex justify-content-center flex-wrap rectangle-container">
+                  <div class="rectangle"></div>
+                  <div class="rectangle"></div>
+                  <div class="rectangle border"></div>
+                  <div class="rectangle"></div>
+                  <div class="rectangle"></div>
+                  <div class="rectangle background"></div>
+                  <div class="rectangle"></div>
+                  <div class="rectangle border"></div>
                 </div>
+              </div>
             </section>
-        </main>
-        <footer>
-            <div>hello@email.com</div>
-            <div>Copyright 2020</div>
-        </footer>
-</body>
+          </main>
+      </div>
+    <footer>
+      <div class="d-flex justify-content-between container">
+        <div>hello@email.com</div>
+        <div>Copyright 2020</div>
+      </div>
+    </footer>
+  </body>
 </html>

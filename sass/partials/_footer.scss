@@ -1,0 +1,10 @@
+footer {
+  background-color: $primary;
+  flex-shrink: 0;
+  padding: 1em;
+
+  div {
+    color: map-get($colors, light-grey);
+    font: normal normal normal 12px/17px Open Sans;
+  }
+}
