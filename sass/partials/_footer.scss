@@ -4,7 +4,7 @@ footer {
   padding: 1em;
 
   div {
-    color: map-get($colors, light-grey);
+    color: getColor(light-grey);
     font: normal normal normal 12px/17px Open Sans;
   }
 }

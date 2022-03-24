@@ -2,23 +2,23 @@ nav {
   background-color: $primary;
 
   .logo {
-    font: normal normal normal 36px/49px Open Sans;
-    color: #262626;
+    font: $font-headings 36px/49px;
+    color: $logo-color;
 
     @media (min-width: 992px) {
-      color: map-get($colors, pink) !important;
+      color: getColor(pink) !important;
     }
   }
 
   a {
     text-decoration: none;
-    color: map-get($colors, light-grey);
+    color: getColor(light-grey);
     text-transform: uppercase;
-    font: normal normal normal 18px/22px Archivo Narrow;
+    font: $font-primary 18px/22px;
   }
 
-  .active {
-    color: map-get($colors, pink) !important;
+  .nav-link--active {
+    color: getColor(pink) !important;
   }
 
   button {

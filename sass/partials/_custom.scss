@@ -1,12 +1,20 @@
-/* Fonts */
+$font-primary: "Archivo Narrow", sans-serif;
+$font-headings: "Open Sans", sans-serif;
 
-/* Colors */
 $primary: #f4f3ee;
 $secondary: #e5e5e5;
+$logo-color: #262626;
 
 $colors: (
   pink: #c32c72,
   light-grey: #8d8d8d,
   dark-grey: #6a6a6a,
   white: #ffffff,
+  grey: #463f3a,
 );
+
+@function getColor($color) {
+  @return map-get($colors, $color);
+}
+
+$rectangle-border: 3px solid;
