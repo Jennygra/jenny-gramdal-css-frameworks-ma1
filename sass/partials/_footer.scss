@@ -5,6 +5,12 @@ footer {
 
   div {
     color: getColor(light-grey);
-    font: normal normal normal 12px/17px Open Sans;
+    font: $font-headings 12px/17px;
+
+    @media (max-width: 991px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 1em;
+    }
   }
 }

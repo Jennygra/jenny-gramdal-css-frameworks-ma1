@@ -1,6 +1,13 @@
 nav {
   background-color: $primary;
 
+  @media (max-width: 991px) {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
   .logo {
     font: $font-headings 36px/49px;
     color: $logo-color;
